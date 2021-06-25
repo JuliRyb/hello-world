@@ -11,11 +11,10 @@
 
 <body>
 	<div>
-		<h1>Donuts!</h1>
+		<h1 id="logo">Donuts!</h1>
 		<h3>And all about them</h3>
 		<ul>
 			<li><a href="about.html">About</a></li>
-			<li><a href="contacts.html">Contacts</a></li>
 			<li><a href="numbers.html">Numbers</a></li>
 		</ul>
 		<br>
@@ -79,12 +78,21 @@
 		<h3>Well done!</h3>
 		<img src="images/donat.jpg" alt="donuts" width="600">
 	</div>
+	<br>
+	<br>
 	<div>
-		<form action="get">
-
+		<form action="#" method="GET">
+			<label for="fname">Name</label><br>
+			<input type="text" id="fname" name="fname"><br>
+			<label for="password">Password</label><br>
+			<input type="password" name="password">
 		</form>
 	</div>
 
 </body>
+<footer>
+	<p>copyright&copy;2021</p><br>
+	<h4><a href="#logo">Back to Top</a></h4>
+</footer>
 
 </html>
